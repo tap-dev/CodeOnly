@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		F309753A25C93B45003901EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F309753925C93B45003901EF /* AppDelegate.swift */; };
 		F309753C25C93B45003901EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F309753B25C93B45003901EF /* SceneDelegate.swift */; };
-		F309753E25C93B45003901EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F309753D25C93B45003901EF /* ViewController.swift */; };
-		F309754125C93B45003901EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F309753F25C93B45003901EF /* Main.storyboard */; };
 		F309754325C93B47003901EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F309754225C93B47003901EF /* Assets.xcassets */; };
 		F309754625C93B47003901EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F309754425C93B47003901EF /* LaunchScreen.storyboard */; };
+		F309756425C9698A003901EF /* OptionAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F309756325C9698A003901EF /* OptionAViewController.swift */; };
+		F309756725C969B7003901EF /* OptionAViewController+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F309756625C969B7003901EF /* OptionAViewController+UI.swift */; };
+		F309756B25C96E47003901EF /* UITabBarItem+Chunky.swift in Sources */ = {isa = PBXBuildFile; fileRef = F309756A25C96E47003901EF /* UITabBarItem+Chunky.swift */; };
+		F309756E25C9755A003901EF /* OptionBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F309756D25C9755A003901EF /* OptionBViewController.swift */; };
+		F309757125C97583003901EF /* OptionBViewController+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F309757025C97583003901EF /* OptionBViewController+UI.swift */; };
+		F309757425C97A1E003901EF /* OptionCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F309757325C97A1E003901EF /* OptionCViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F309753625C93B45003901EF /* CodeOnly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeOnly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F309753925C93B45003901EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F309753B25C93B45003901EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F309753D25C93B45003901EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F309754025C93B45003901EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F309754225C93B47003901EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F309754525C93B47003901EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F309754725C93B47003901EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F309756325C9698A003901EF /* OptionAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionAViewController.swift; sourceTree = "<group>"; };
+		F309756625C969B7003901EF /* OptionAViewController+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OptionAViewController+UI.swift"; sourceTree = "<group>"; };
+		F309756A25C96E47003901EF /* UITabBarItem+Chunky.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITabBarItem+Chunky.swift"; sourceTree = "<group>"; };
+		F309756D25C9755A003901EF /* OptionBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionBViewController.swift; sourceTree = "<group>"; };
+		F309757025C97583003901EF /* OptionBViewController+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OptionBViewController+UI.swift"; sourceTree = "<group>"; };
+		F309757325C97A1E003901EF /* OptionCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionCViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +66,57 @@
 			children = (
 				F309753925C93B45003901EF /* AppDelegate.swift */,
 				F309753B25C93B45003901EF /* SceneDelegate.swift */,
-				F309753D25C93B45003901EF /* ViewController.swift */,
-				F309753F25C93B45003901EF /* Main.storyboard */,
+				F309755C25C968B9003901EF /* OptionA */,
+				F309755D25C968CD003901EF /* OptionB */,
+				F309755E25C968D4003901EF /* OptionC */,
+				F309756925C96E2E003901EF /* Extensions */,
+				F309756025C96904003901EF /* Resources */,
+			);
+			path = CodeOnly;
+			sourceTree = "<group>";
+		};
+		F309755C25C968B9003901EF /* OptionA */ = {
+			isa = PBXGroup;
+			children = (
+				F309756325C9698A003901EF /* OptionAViewController.swift */,
+				F309756625C969B7003901EF /* OptionAViewController+UI.swift */,
+			);
+			path = OptionA;
+			sourceTree = "<group>";
+		};
+		F309755D25C968CD003901EF /* OptionB */ = {
+			isa = PBXGroup;
+			children = (
+				F309756D25C9755A003901EF /* OptionBViewController.swift */,
+				F309757025C97583003901EF /* OptionBViewController+UI.swift */,
+			);
+			path = OptionB;
+			sourceTree = "<group>";
+		};
+		F309755E25C968D4003901EF /* OptionC */ = {
+			isa = PBXGroup;
+			children = (
+				F309757325C97A1E003901EF /* OptionCViewController.swift */,
+			);
+			path = OptionC;
+			sourceTree = "<group>";
+		};
+		F309756025C96904003901EF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				F309754225C93B47003901EF /* Assets.xcassets */,
 				F309754425C93B47003901EF /* LaunchScreen.storyboard */,
 				F309754725C93B47003901EF /* Info.plist */,
 			);
-			path = CodeOnly;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F309756925C96E2E003901EF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F309756A25C96E47003901EF /* UITabBarItem+Chunky.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +178,6 @@
 			files = (
 				F309754625C93B47003901EF /* LaunchScreen.storyboard in Resources */,
 				F309754325C93B47003901EF /* Assets.xcassets in Resources */,
-				F309754125C93B45003901EF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +188,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F309753E25C93B45003901EF /* ViewController.swift in Sources */,
+				F309756425C9698A003901EF /* OptionAViewController.swift in Sources */,
+				F309756E25C9755A003901EF /* OptionBViewController.swift in Sources */,
+				F309756B25C96E47003901EF /* UITabBarItem+Chunky.swift in Sources */,
 				F309753A25C93B45003901EF /* AppDelegate.swift in Sources */,
+				F309757425C97A1E003901EF /* OptionCViewController.swift in Sources */,
+				F309757125C97583003901EF /* OptionBViewController+UI.swift in Sources */,
+				F309756725C969B7003901EF /* OptionAViewController+UI.swift in Sources */,
 				F309753C25C93B45003901EF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,14 +202,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F309753F25C93B45003901EF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F309754025C93B45003901EF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F309754425C93B47003901EF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -288,7 +336,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9ZR496RB3Q;
-				INFOPLIST_FILE = CodeOnly/Info.plist;
+				INFOPLIST_FILE = CodeOnly/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +355,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9ZR496RB3Q;
-				INFOPLIST_FILE = CodeOnly/Info.plist;
+				INFOPLIST_FILE = CodeOnly/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
